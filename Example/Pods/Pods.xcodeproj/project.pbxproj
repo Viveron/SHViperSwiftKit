@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D5ACF32F0CA3EDDD3BECE117D1B0098 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0998336F8E4DD6D5CD1311D26C7A19 /* ReplaceMe.swift */; };
+		0C607FA02106821800AAC052 /* ViperModuleTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C607F9F2106821800AAC052 /* ViperModuleTransitionHandler.swift */; };
+		0C607FA22106827E00AAC052 /* UIViewController+ViperModuleTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C607FA12106827E00AAC052 /* UIViewController+ViperModuleTransitionHandler.swift */; };
 		2443A26BD7166193F134B36A9F147C70 /* Pods-SHViperSwiftKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F78374D2F4C6101B5890C7FCAFC1E414 /* Pods-SHViperSwiftKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75E545CEF60995A0D7893D471CC5D424 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		A9CE53C3F0A5F2DD183C53525B7992B4 /* SHViperSwiftKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE7A0E35E1C6560413447C0A04B7A38 /* SHViperSwiftKit-dummy.m */; };
@@ -27,26 +28,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C607F9F2106821800AAC052 /* ViperModuleTransitionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperModuleTransitionHandler.swift; sourceTree = "<group>"; };
+		0C607FA12106827E00AAC052 /* UIViewController+ViperModuleTransitionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ViperModuleTransitionHandler.swift"; sourceTree = "<group>"; };
 		36022D3B49DF23CEE3F4B51BB988E36D /* SHViperSwiftKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHViperSwiftKit-prefix.pch"; sourceTree = "<group>"; };
 		3822E02D6B064C2E801AB913AC3A1BD9 /* Pods-SHViperSwiftKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHViperSwiftKit_Tests.modulemap"; sourceTree = "<group>"; };
 		39B2AC7895D7380C1D9200DF3A08AB8A /* Pods-SHViperSwiftKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHViperSwiftKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3FA0663EE12757958E70B2DB73C36DA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CA7DB1C24147590F835829908CF81DC /* Pods-SHViperSwiftKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHViperSwiftKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4E4D55071E11027BD6150BD50DDA98EE /* Pods_SHViperSwiftKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SHViperSwiftKit_Tests.framework; path = "Pods-SHViperSwiftKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E4D55071E11027BD6150BD50DDA98EE /* Pods_SHViperSwiftKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHViperSwiftKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C37F18717CB3830EB5FF624904861C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57358181E83059617E617092D7C9A777 /* Pods-SHViperSwiftKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHViperSwiftKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6FF3C2FEB68E0D8D197C75BB5206B50E /* SHViperSwiftKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHViperSwiftKit-umbrella.h"; sourceTree = "<group>"; };
-		709871C4E34951290E7B14DFD3AA2064 /* SHViperSwiftKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SHViperSwiftKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		709871C4E34951290E7B14DFD3AA2064 /* SHViperSwiftKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SHViperSwiftKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		74B9105D09526D665B3740A5781A654C /* SHViperSwiftKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHViperSwiftKit.modulemap; sourceTree = "<group>"; };
 		808A473F3F6D93410AB61E8A12679F0B /* Pods-SHViperSwiftKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHViperSwiftKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B25238AB356AC4D42D47D8FF6173DC8C /* Pods-SHViperSwiftKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHViperSwiftKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		BA0D680A16B503CED64882C4B94B75E1 /* SHViperSwiftKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHViperSwiftKit.xcconfig; sourceTree = "<group>"; };
-		BE0998336F8E4DD6D5CD1311D26C7A19 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SHViperSwiftKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		CCE6F3DAA3804AE9EAF827FB611DBFDA /* SHViperSwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SHViperSwiftKit.framework; path = SHViperSwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D51B4C8D6E0C3C2EA59F7031AFB7D147 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D550C36967015B1F3B8B525AC0669827 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CCE6F3DAA3804AE9EAF827FB611DBFDA /* SHViperSwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHViperSwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51B4C8D6E0C3C2EA59F7031AFB7D147 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D550C36967015B1F3B8B525AC0669827 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DC7951E9A247D372441CACFC1BE1F8BB /* Pods-SHViperSwiftKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHViperSwiftKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		DFE7A0E35E1C6560413447C0A04B7A38 /* SHViperSwiftKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHViperSwiftKit-dummy.m"; sourceTree = "<group>"; };
 		E0B83FEDAAF9EDEC9DD2354B6089341D /* Pods-SHViperSwiftKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHViperSwiftKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +83,23 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		0C607F9B2106818200AAC052 /* ViperTransitionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				0C607F9E210681EA00AAC052 /* UIViewController */,
+				0C607F9F2106821800AAC052 /* ViperModuleTransitionHandler.swift */,
+			);
+			path = ViperTransitionHandler;
+			sourceTree = "<group>";
+		};
+		0C607F9E210681EA00AAC052 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0C607FA12106827E00AAC052 /* UIViewController+ViperModuleTransitionHandler.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
 		289F0742587EE90D413B2EC37B642EF9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +122,7 @@
 		58B26A104AF75FEC8E01968958A0A1D0 /* SHViperSwiftKit */ = {
 			isa = PBXGroup;
 			children = (
-				BE0998336F8E4DD6D5CD1311D26C7A19 /* ReplaceMe.swift */,
+				0C607F9B2106818200AAC052 /* ViperTransitionHandler */,
 				3E60C9396C2694EC3C53D77372EF1904 /* Pod */,
 				D7CC35AC8B2CBC75148AFA2780EEF5A4 /* Support Files */,
 			);
@@ -243,6 +262,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					8BB306C982D3F95DF0F88FD6927ABFEA = {
+						LastSwiftMigration = 0940;
+					};
+					9C2CE07FF1B136230A3C63D642EED968 = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -275,8 +302,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D5ACF32F0CA3EDDD3BECE117D1B0098 /* ReplaceMe.swift in Sources */,
+				0C607FA02106821800AAC052 /* ViperModuleTransitionHandler.swift in Sources */,
 				A9CE53C3F0A5F2DD183C53525B7992B4 /* SHViperSwiftKit-dummy.m in Sources */,
+				0C607FA22106827E00AAC052 /* UIViewController+ViperModuleTransitionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA0D680A16B503CED64882C4B94B75E1 /* SHViperSwiftKit.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -451,6 +480,7 @@
 			baseConfigurationReference = E0B83FEDAAF9EDEC9DD2354B6089341D /* Pods-SHViperSwiftKit_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -474,6 +504,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -486,6 +517,7 @@
 			baseConfigurationReference = 57358181E83059617E617092D7C9A777 /* Pods-SHViperSwiftKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -510,6 +542,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -520,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA0D680A16B503CED64882C4B94B75E1 /* SHViperSwiftKit.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
