@@ -1,0 +1,16 @@
+PODS:
+  - SHViperSwiftKit (0.1.0)
+
+DEPENDENCIES:
+  - SHViperSwiftKit (from `../`)
+
+EXTERNAL SOURCES:
+  SHViperSwiftKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SHViperSwiftKit: 490f5086d7f44dd4a40ff8750e2cd1ea951b0a54
+
+PODFILE CHECKSUM: d9f731fd9637e1a410803d7c9a50579134732f60
+
+COCOAPODS: 1.5.3

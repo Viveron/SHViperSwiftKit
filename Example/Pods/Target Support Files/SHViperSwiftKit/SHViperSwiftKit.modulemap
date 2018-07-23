@@ -1,0 +1,6 @@
+framework module SHViperSwiftKit {
+  umbrella header "SHViperSwiftKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
