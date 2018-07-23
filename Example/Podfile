@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SHViperSwiftKit_Tests' do
+  pod 'SHViperSwiftKit', :path => '../'
+  
+  
+end
