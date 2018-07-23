@@ -100,6 +100,14 @@
 			path = UIViewController;
 			sourceTree = "<group>";
 		};
+		0C607FA32106879500AAC052 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C607F9B2106818200AAC052 /* ViperTransitionHandler */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		289F0742587EE90D413B2EC37B642EF9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,7 +130,7 @@
 		58B26A104AF75FEC8E01968958A0A1D0 /* SHViperSwiftKit */ = {
 			isa = PBXGroup;
 			children = (
-				0C607F9B2106818200AAC052 /* ViperTransitionHandler */,
+				0C607FA32106879500AAC052 /* Classes */,
 				3E60C9396C2694EC3C53D77372EF1904 /* Pod */,
 				D7CC35AC8B2CBC75148AFA2780EEF5A4 /* Support Files */,
 			);
