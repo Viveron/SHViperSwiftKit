@@ -1,6 +1,6 @@
 # SHViperSwiftKit
 
-[![CI Status](https://img.shields.io/travis/Victor Shabanov/SHViperSwiftKit.svg?style=flat)](https://travis-ci.org/Victor Shabanov/SHViperSwiftKit)
+[![CI Status](https://img.shields.io/travis/Viveron/SHViperSwiftKit.svg?style=flat)](https://travis-ci.org/Viveron/SHViperSwiftKit)
 [![Version](https://img.shields.io/cocoapods/v/SHViperSwiftKit.svg?style=flat)](https://cocoapods.org/pods/SHViperSwiftKit)
 [![License](https://img.shields.io/cocoapods/l/SHViperSwiftKit.svg?style=flat)](https://cocoapods.org/pods/SHViperSwiftKit)
 [![Platform](https://img.shields.io/cocoapods/p/SHViperSwiftKit.svg?style=flat)](https://cocoapods.org/pods/SHViperSwiftKit)

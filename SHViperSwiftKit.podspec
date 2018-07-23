@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
     s.summary          = 'VIPER commonly used and helpful modules parts.'
     
     s.description      = <<-DESC
-    VIPER commonly used and helpful modules parts:
-    - ViperModuleTransitionHandler
+VIPER commonly used and helpful modules parts:
+- ViperModuleTransitionHandler
     DESC
     
     s.homepage         = 'https://github.com/Viveron/SHViperSwiftKit'
