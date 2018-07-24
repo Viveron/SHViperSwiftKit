@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C607FA02106821800AAC052 /* ViperModuleTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C607F9F2106821800AAC052 /* ViperModuleTransitionHandler.swift */; };
-		0C607FA22106827E00AAC052 /* UIViewController+ViperModuleTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C607FA12106827E00AAC052 /* UIViewController+ViperModuleTransitionHandler.swift */; };
+		0C607FB12107BAF000AAC052 /* UIViewController+ViperModuleTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C607FAF2107BAF000AAC052 /* UIViewController+ViperModuleTransitionHandler.swift */; };
+		0C607FB22107BAF000AAC052 /* ViperModuleTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C607FB02107BAF000AAC052 /* ViperModuleTransitionHandler.swift */; };
 		2443A26BD7166193F134B36A9F147C70 /* Pods-SHViperSwiftKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F78374D2F4C6101B5890C7FCAFC1E414 /* Pods-SHViperSwiftKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75E545CEF60995A0D7893D471CC5D424 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		A9CE53C3F0A5F2DD183C53525B7992B4 /* SHViperSwiftKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE7A0E35E1C6560413447C0A04B7A38 /* SHViperSwiftKit-dummy.m */; };
@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C607F9F2106821800AAC052 /* ViperModuleTransitionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperModuleTransitionHandler.swift; sourceTree = "<group>"; };
-		0C607FA12106827E00AAC052 /* UIViewController+ViperModuleTransitionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ViperModuleTransitionHandler.swift"; sourceTree = "<group>"; };
+		0C607FAF2107BAF000AAC052 /* UIViewController+ViperModuleTransitionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ViperModuleTransitionHandler.swift"; sourceTree = "<group>"; };
+		0C607FB02107BAF000AAC052 /* ViperModuleTransitionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViperModuleTransitionHandler.swift; sourceTree = "<group>"; };
 		36022D3B49DF23CEE3F4B51BB988E36D /* SHViperSwiftKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHViperSwiftKit-prefix.pch"; sourceTree = "<group>"; };
 		3822E02D6B064C2E801AB913AC3A1BD9 /* Pods-SHViperSwiftKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHViperSwiftKit_Tests.modulemap"; sourceTree = "<group>"; };
 		39B2AC7895D7380C1D9200DF3A08AB8A /* Pods-SHViperSwiftKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHViperSwiftKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -83,29 +83,30 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		0C607F9B2106818200AAC052 /* ViperTransitionHandler */ = {
+		0C607FAC2107BAF000AAC052 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0C607F9E210681EA00AAC052 /* UIViewController */,
-				0C607F9F2106821800AAC052 /* ViperModuleTransitionHandler.swift */,
+				0C607FAD2107BAF000AAC052 /* ViperTransitionHandler */,
+			);
+			name = Classes;
+			path = SHViperSwiftKit/Classes;
+			sourceTree = "<group>";
+		};
+		0C607FAD2107BAF000AAC052 /* ViperTransitionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				0C607FAE2107BAF000AAC052 /* UIViewController */,
+				0C607FB02107BAF000AAC052 /* ViperModuleTransitionHandler.swift */,
 			);
 			path = ViperTransitionHandler;
 			sourceTree = "<group>";
 		};
-		0C607F9E210681EA00AAC052 /* UIViewController */ = {
+		0C607FAE2107BAF000AAC052 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0C607FA12106827E00AAC052 /* UIViewController+ViperModuleTransitionHandler.swift */,
+				0C607FAF2107BAF000AAC052 /* UIViewController+ViperModuleTransitionHandler.swift */,
 			);
 			path = UIViewController;
-			sourceTree = "<group>";
-		};
-		0C607FA32106879500AAC052 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0C607F9B2106818200AAC052 /* ViperTransitionHandler */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		289F0742587EE90D413B2EC37B642EF9 /* Products */ = {
@@ -130,7 +131,7 @@
 		58B26A104AF75FEC8E01968958A0A1D0 /* SHViperSwiftKit */ = {
 			isa = PBXGroup;
 			children = (
-				0C607FA32106879500AAC052 /* Classes */,
+				0C607FAC2107BAF000AAC052 /* Classes */,
 				3E60C9396C2694EC3C53D77372EF1904 /* Pod */,
 				D7CC35AC8B2CBC75148AFA2780EEF5A4 /* Support Files */,
 			);
@@ -310,9 +311,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C607FA02106821800AAC052 /* ViperModuleTransitionHandler.swift in Sources */,
 				A9CE53C3F0A5F2DD183C53525B7992B4 /* SHViperSwiftKit-dummy.m in Sources */,
-				0C607FA22106827E00AAC052 /* UIViewController+ViperModuleTransitionHandler.swift in Sources */,
+				0C607FB22107BAF000AAC052 /* ViperModuleTransitionHandler.swift in Sources */,
+				0C607FB12107BAF000AAC052 /* UIViewController+ViperModuleTransitionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
