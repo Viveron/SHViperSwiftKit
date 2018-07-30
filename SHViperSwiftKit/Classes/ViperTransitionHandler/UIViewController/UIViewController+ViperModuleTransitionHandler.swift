@@ -34,6 +34,10 @@ extension UIViewController: ViperModuleTransitionHandler {
         }
     }
     
+    public func closeOpenedModules(animated: Bool) {
+        navigationController?.popToViewController(self, animated: animated)
+    }
+    
     // MARK: - Submodule transitions
     
     public func openSubmodule(controller: UIViewController, in containerView: UIView) {

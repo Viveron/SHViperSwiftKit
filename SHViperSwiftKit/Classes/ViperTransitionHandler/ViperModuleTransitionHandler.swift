@@ -20,6 +20,8 @@ public protocol ViperModuleTransitionHandler: class {
     
     func closeCurrentModule(animated: Bool)
     
+    func closeOpenedModules(animated: Bool)
+    
     /**
      Submodule transitions
      */
