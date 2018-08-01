@@ -11,6 +11,7 @@ VIPER commonly used and helpful modules parts:
     s.author           = { 'Victor Shabanov' => 'shabanov.dev.git@gmail.com' }
     s.source           = { :git => 'https://github.com/Viveron/SHViperSwiftKit.git', :tag => s.version.to_s }
     
+    s.swift_version = '4.2'
     s.ios.deployment_target = '8.0'
     s.frameworks = 'UIKit'
     
